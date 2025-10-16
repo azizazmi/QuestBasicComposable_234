@@ -42,7 +42,6 @@ fun TataLetakRow(modifier: Modifier) {
             Text(text = "Komponen2")
             Text(text = "Komponen3")
             Text(text = "Komponen4")
-        }
     }
 }
 
