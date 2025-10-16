@@ -52,15 +52,15 @@ fun TataLetakBox(modifier: Modifier) {
 
 @Composable
 fun TataLetakColumnRow(modifier: Modifier) {
-    Column {
+    Column() {
         //Baris1
-        Row {
+        Row(modifier = modifier.fillMaxWidth()) {
             Text(text = "Komponen1Baris1")
             Text(text = "Komponen2Baris1")
             Text(text = "Komponen3Baris1")
         }
         //Baris2
-        Row {
+        Row(modifier = modifier.fillMaxWidth()) {
             Text(text = "Komponen1Baris2")
             Text(text = "Komponen2Baris2")
             Text(text = "Komponen3Baris2")
