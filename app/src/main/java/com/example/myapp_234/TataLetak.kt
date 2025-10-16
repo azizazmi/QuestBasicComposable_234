@@ -1,6 +1,5 @@
 package com.example.myapp_234
 
-import android.database.sqlite.SQLiteBindOrColumnIndexOutOfRangeException
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Arrangement
